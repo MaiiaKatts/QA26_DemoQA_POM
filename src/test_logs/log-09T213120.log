@@ -1,0 +1,27 @@
+2642 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/mvideo/JavaAIT/QA/QA26_DemoQA_POM/src/test/resources/testng.xml
+
+10703 [main] INFO  com.ait.demoqa.tests.TestBase - All tests run in Chrome Browser
+18089 [main] INFO  com.ait.demoqa.tests.TestBase - The link --> https://demoqa.com/
+19181 [main] INFO  com.ait.demoqa.tests.TestBase - ==============================
+19182 [main] INFO  com.ait.demoqa.tests.TestBase - Start method --> loginPositiveTest
+19267 [main] INFO  com.ait.demoqa.utils.MyListener - Find element --> By.xpath: //h5[.='Book Store Application']
+19740 [main] INFO  com.ait.demoqa.utils.MyListener - Location of element --> (37, 1113)
+20906 [main] INFO  com.ait.demoqa.utils.MyListener - Find element --> By.xpath: //span[.='Login']
+21520 [main] INFO  com.ait.demoqa.utils.MyListener - Location of element --> (80, 801)
+22674 [main] INFO  com.ait.demoqa.utils.MyListener - We have a problem!
+22674 [main] INFO  com.ait.demoqa.utils.MyListener - Object target --> [[ChromeDriver: chrome on mac (004127b6e77830afd418ff4d6d837a4c)] -> xpath: //span[.='Login']]
+22674 [main] INFO  com.ait.demoqa.utils.MyListener - =========================================
+22674 [main] INFO  com.ait.demoqa.utils.MyListener - Method name --> click
+22674 [main] INFO  com.ait.demoqa.utils.MyListener - =========================================
+22676 [main] INFO  com.ait.demoqa.utils.MyListener - InvocationTargetException --> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="text">...</span> is not clickable at point (103, 600). Other element would receive the click: <div id="fixedban" style="width:100%;margin:auto;text-align:center;float:none;overflow:hidden;display:scroll;position:fixed;bottom:0;z-index:9999999">...</div>
+  (Session info: chrome=117.0.5938.149)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.9', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [004127b6e77830afd418ff4d6d837a4c, clickElement {id=7731BE5E47F62A6B8DCF503C994C533B_element_57}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.149, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/9c/w8_87jgd4s7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60817}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60817/devtoo..., se:cdpVersion: 117.0.5938.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (004127b6e77830afd418ff4d6d837a4c)] -> xpath: //span[.='Login']]
+Session ID: 004127b6e77830afd418ff4d6d837a4c
+22677 [main] INFO  com.ait.demoqa.utils.MyListener - =========================================
+22677 [main] INFO  com.ait.demoqa.utils.MyListener - Screen with ERROR --> screenshots/screen_ 1703.png

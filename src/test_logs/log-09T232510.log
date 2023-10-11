@@ -1,0 +1,15 @@
+2201 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/mvideo/Library/Caches/JetBrains/IdeaIC2022.3/temp-testng-customsuite.xml
+
+8736 [main] INFO  com.ait.demoqa.tests.TestBase - All tests run in Chrome Browser
+13160 [main] INFO  com.ait.demoqa.tests.TestBase - The link --> https://demoqa.com/
+14426 [main] INFO  com.ait.demoqa.tests.TestBase - ==============================
+14428 [main] INFO  com.ait.demoqa.tests.TestBase - Start method --> keyRobotEventTest
+14585 [main] INFO  com.ait.demoqa.utils.MyListener - Find element --> By.xpath: //h5[.='Elements']
+14727 [main] INFO  com.ait.demoqa.utils.MyListener - Location of element --> (37, 665)
+14964 [main] INFO  com.ait.demoqa.utils.MyListener - Find element --> By.xpath: //span[.='Upload and Download']
+15094 [main] INFO  com.ait.demoqa.utils.MyListener - Location of element --> (80, 809)
+16817 [main] INFO  com.ait.demoqa.utils.MyListener - Find element --> By.id: uploadFile
+16880 [main] INFO  com.ait.demoqa.utils.MyListener - Location of element --> (378, 412)
+16918 [Forwarding actions on session b5546d83aa0a79ac19febfd84a77054b to remote] INFO  com.ait.demoqa.utils.MyListener - Find element --> By.id: uploadFile
+16987 [Forwarding actions on session b5546d83aa0a79ac19febfd84a77054b to remote] INFO  com.ait.demoqa.utils.MyListener - Location of element --> (378, 412)
